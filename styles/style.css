@@ -35,6 +35,42 @@ header nav {
 .dropdown{
     padding: 15px;
 }
+.signup{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+.log{
+    text-align: center;
+}
+.cont{
+    margin-bottom: 138px;
+    margin-top: 50px;
+}
+.row{
+    margin-bottom: 20px;
+}
+#gender{
+    height: 40px;
+}
+.register{
+    width: 400px;
+    height: 40px;
+}
+
+.card-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bttn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: #FFD428;
+    border: black 2px solid;
+}
 
 footer {
     background: #333;
