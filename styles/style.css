@@ -32,6 +32,10 @@ header nav {
     align-content: right;
 }
 
+.dropdown{
+    padding: 15px;
+}
+
 footer {
     background: #333;
     color: white;
