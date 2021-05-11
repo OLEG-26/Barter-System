@@ -1,0 +1,105 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header {
+    background-color: #FFD428;
+}
+
+header nav {
+    font-weight: bold;
+}
+
+.nav-bar a {
+    color: black;
+}
+
+#navbutton{
+    margin-left: auto;
+}
+
+.navbar {
+    align-content: center;
+}
+
+#profile{
+    margin-left: 6px;
+    align-content: right;
+}
+
+
+/*NAPS CSS LOGIN and SIGNUP*/
+
+.dropdown{
+    padding: 15px;
+}
+.signup{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:40px;
+}
+.log{
+    text-align: center;
+}
+
+/*NO USE
+.cont{
+    margin-bottom: 138px;
+    margin-top: 50px;
+}
+*/
+
+.row{
+    margin-bottom: 20px;
+}
+#gender{
+    height: 40px;
+}
+.register{
+    width: 400px;
+    height: 40px;
+}
+
+/*NO USE
+.card-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+.bttn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: #FFD428;
+    border: black 2px solid;
+}
+
+footer {
+    background: #333;
+    color: white;
+}
+
+/*DAGDAG NI OLEG*/
+#login-border{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 17px;
+    border-style: solid;
+    border-color: #333;
+}
+
+#signup-border{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 17px;
+    border-style: solid;
+    border-color: #333;
+}
