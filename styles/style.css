@@ -1,0 +1,38 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header {
+    background-color: #FFD428;
+}
+
+header nav {
+    font-weight: bold;
+}
+
+.nav-bar a {
+    color: black;
+}
+
+#navbutton{
+    margin-left: auto;
+}
+
+.navbar {
+    align-content: center;
+}
+
+#profile{
+    margin-left: 6px;
+    align-content: right;
+}
+
+footer {
+    background: #333;
+    color: white;
+}
