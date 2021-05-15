@@ -46,14 +46,6 @@ header nav {
 .log{
     text-align: center;
 }
-
-/*NO USE
-.cont{
-    margin-bottom: 138px;
-    margin-top: 50px;
-}
-*/
-
 .row{
     margin-bottom: 20px;
 }
@@ -65,21 +57,26 @@ header nav {
     height: 40px;
 }
 
-/*NO USE
-.card-cont{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
-
 .bttn{
     margin-top: 20px;
     margin-bottom: 20px;
     height: 40px;
     width: 200px;
     background-color: #FFD428;
-    border: black 2px solid;
+    border: #333 2px solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.bttn:active{
+    color:black;
+    border-color: black;
+    opacity: 0.8;
+}
+.bttn:hover{
+    color:black;
+    border-color:#333;
+    background-color: #f5c400;
+    outline: none;
+    border-radius: 3px;
 }
 
 footer {
