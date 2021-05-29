@@ -57,6 +57,65 @@
      </div>  
 
   </header>
+   <!--upload photo-->
+   <div class="container">
+    <div class="wrapper">
+      <div class="image">
+        <img src="" alt="">
+      </div>
+      <div class="content">
+        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <div class="text">No image chosen, yet!</div>
+      </div>
+      <div id="cancel-btn"><i class="fas fa-times"></i></div>
+      <div class="file-name">File name here</div>
+    </div>
+    <input  id="default-btn" type="file" hidden>
+    <button onclick="defaultBtnActive()" id="custom-btn">Add Image</button>
+
+    <h3>Fill-up all the details</h3>
+
+    <div class="formBx">
+      <form>
+          <div class="inputBx">
+              <input type="text" name="" placeholder="Item Name">
+          </div>
+          <div class="inputBx">
+              <input type="text" name="" placeholder="Item Description">
+          </div>
+          <div class="inputBx">
+              <input type="text" name="" placeholder="Trade to what item">
+          </div>
+          <div class="inputBx">
+              <input type="text" name="" placeholder="Preferred mode of transaction">
+          </div>
+          <div class="inputBx">
+              <input type="submit" value="SUBMIT" name="">
+          </div>
+
+      </form>
+    </div>
+  </div>
+    <!--upload photo function-->
+<script>
+  const defaultBtn = document.querySelector("#default-btn")
+  const customBtn = document.querySelector("#custom-btn")
+  const img = document.querySelector("img")
+  function defaultBtnActive(){
+    defaultBtn.click();
+  }
+  defaultBtn.addEventListener("change", function(){
+    const file = this.files[0];
+    if(file){
+      const reader = new FileReader();
+      reader.onload = function(){
+        const result = reader.result;
+        img.src = result;
+      }
+      reader.readAsDataURL(file);
+    }
+  })
+</script>
 
       <footer class="page-footer font-small blue">
         <div class="footer-copyright text-center py-3">
