@@ -67,6 +67,8 @@ footer {
 #view_more.btn {
   margin-top: 20px;
 }
+
+
 /*OLEG CSS d2 Hule*/
 
 /*Migs Post page*/
@@ -189,4 +191,9 @@ footer {
 .container .formBx .inputBx p a
 {
     color: #333;
+}
+
+
+#details{
+  margin-top: 20px;
 }
